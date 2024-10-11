@@ -1,0 +1,115 @@
+body {
+    background-color: #f7f7f7;
+}
+
+/* Carousel image styling */
+.carousel-inner img {
+    height: 800px;
+    object-fit: cover;
+}
+
+/* Greeting Section Styling */
+.greeting-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.greeting-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.greeting-container p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+/* Gallery Section Styling */
+.gallery img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.gallery .title-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: background 0.3s ease, text-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Emboss-like shadow */
+}
+
+.gallery-item:hover .title-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Emboss effect */
+}
+
+.gallery .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    height: 350px;
+}
+
+.title-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Message Section Styling */
+.message-section {
+    padding: 40px;
+}
+
+.message {
+    background-color: #ffefef;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.message h3 {
+    font-size: 2rem;
+    color: #e74c3c;
+}
+
+.message p {
+    font-size: 1.2rem;
+}
